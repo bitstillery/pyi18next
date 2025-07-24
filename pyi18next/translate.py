@@ -69,6 +69,7 @@ class Translate:
         return self._i18next.t(identifier, **json_data)
 
     def translate_str(self, value, **kwargs):
+        kwargs = {k: str(v) for k, v in kwargs.items()}
         def _sub_replace(mo):
             if mo.group('itpl'):
                 return self.handle_itpl(mo, **kwargs)
