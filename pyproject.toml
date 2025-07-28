@@ -1,6 +1,6 @@
 [project]
 name = "bitstillery_pyi18next"
-version = "0.0.4"
+version = "0.0.6"
 description = "A Python implementation of i18next."
 readme = "README.md"
 authors = [
