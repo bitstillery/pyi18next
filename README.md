@@ -1,4 +1,6 @@
-# pyi18next
+# bitstillery_pyi18next
+
+This is a fork of pyi18next, that fixes pluralisation count.
 
 [![Documentation Status](https://readthedocs.org/projects/pyi18next/badge/?version=latest)](https://pyi18next.readthedocs.io/en/latest/?badge=latest)
 
@@ -9,7 +11,7 @@ A Python implementation of [i18next](https://github.com/i18next/i18next). Docume
 ### Install
 
 ```
-python -m pip install -U pyi18next
+python -m pip install -U bitstillery_pyi18next
 ```
 
 ### Init
@@ -17,7 +19,7 @@ python -m pip install -U pyi18next
 We can define a `I18next` object with translations loaded as follow:
 
 ```python
-import pyi18next.i18next
+import bitstillery_pyi18next as pyi18next
 
 i18n = pyi18next.i18next.I18next(
      resources={
