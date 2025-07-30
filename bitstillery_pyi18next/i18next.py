@@ -88,7 +88,6 @@ class I18next:
             key = f'{key}_{kwargs["context"]}'
         if kwargs.get('count') and self._plural_func:
             key = f'{key}_{self._plural_func(kwargs["count"])}'
-            print(key)
         # handle deep key
         ret['deep'] = key.split('.')
         ret['key'] = key
